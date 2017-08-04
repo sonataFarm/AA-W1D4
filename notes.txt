@@ -1,0 +1,28 @@
+Tile
+revealed / hidden
+bomb / not bomb?
+
+Board
+method to assign values to bomb-adjacent squares (on board)
+method to reveal neighbors recursively
+initialize (blank grid)
+factory method (from file)
+factory method (random)
+
+Player
+method to get a (valid) move
+
+Game
+initializes a board (somehow) & player
+play. for each round:
+  - render board
+  - get a move from player
+  - end if game_over?
+  - else, reveal tiles
+
+won?
+lost?
+game_over?
+
+Phase 2
+flagging
